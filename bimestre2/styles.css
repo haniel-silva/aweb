@@ -29,7 +29,7 @@ header {
 }
 
 .principal {
-
+    justify-content: center;
 }
 
 .card-um {
@@ -45,11 +45,15 @@ header {
 }
 
 .card-quatro {
-    
+
 }
 
 .card {
-
+    background-color: green;
+    width: 250px;
+    height: 350px;
+    margin: 50px;
+    border-radius: 10px;
 }
 
 .hero {
