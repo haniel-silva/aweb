@@ -18,17 +18,20 @@ header {
     height: 120px;
     text-align: center;
     font-family: "Montserrat";
-    position: sticky;
+}
+
+.imagem {
+    height: 100px;
+    width: 100px;
 }
 
 .navegacao {
-    top: 0;
     border: none;
     background-color: white;
     cursor:pointer;
     padding: 20px;
     font-size: 20px;
-    position: sticky;
+    border-radius: 10px;
 }
 
 .navegacao:hover {
@@ -124,6 +127,16 @@ header {
     color: #FFFF;
 }
 
+.hero > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1200px;
+    margin: 0 auto;
+    top: 125px;
+}
+
 h2, h3 {
     text-align: left;
     padding-top: 20px;
@@ -135,4 +148,59 @@ footer {
     background-color: #e0e0e0;
     width: 100%;
     height: 100%;
+    padding-top: 30px;
+}
+
+footer > h1 {
+    padding-bottom: 20px;
+}
+
+footer button {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    font-family: "Montserrat";
+}
+
+footer button:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+td {
+    border: 5px solid lightgrey;
+}
+
+.coluna {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+footer a {
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: black;
+}
+
+.Instagram:hover {
+    color: #C13584;
+    transition: 0.5s;
+}
+
+.Steam:hover {
+    color: #2a475e;
+    transition: 0.5s;
+}
+
+.Spotify:hover {
+    color: #1DB954;
+    transition: 0.5s;
 }
